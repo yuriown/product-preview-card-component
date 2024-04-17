@@ -91,6 +91,11 @@ button{
     margin-bottom: 40px;
 }
 
+button:hover{
+    background-color: var(--very-dark);
+    cursor: pointer;
+}
+
 .fa-solid{
     margin-right: 10px;
 }
