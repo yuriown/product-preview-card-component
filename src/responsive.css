@@ -1,0 +1,40 @@
+@media (max-width: 375px) {
+    body{
+        background-color: var(--cream);
+    }
+
+    main{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main{
+        display: block;
+        margin: 0 28px 0 28px;
+        margin-top: 20px;
+    }
+    .content{
+        background-color: white;
+        border-radius: 10px;
+        padding-bottom: 0;
+    }
+    img{
+        width: 327px;
+        max-height: 250px;
+        border-radius: 10px 10px 0 0 ;
+        object-fit: cover;
+    }
+    .product-type{
+        margin-top: 0;
+    }
+
+    .attribution{
+        padding: 5px;
+        position: absolute;
+        display: flex;
+        bottom:0%;
+        right: 10px;
+    }
+}
